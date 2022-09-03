@@ -25,6 +25,7 @@
     height: 400px;
     background-color: #900;
     margin-top: 75px;
+    width: 100%;
 
     &_row {
         margin: 0 auto;
@@ -61,5 +62,27 @@
         color:#fff;
         padding: 0px 15px;
         
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        .about-hero {
+            margin-top: 0px;
+        }
+
+        .about_top {
+            padding-bottom: 60px;
+        }
+        .about_stats {
+            margin: 0 auto;
+            height: fit-content;
+            width: fit-content;
+            padding: 10px;
+        }
+        .about_stats_box {
+            max-width: fit-content;
+            height: 180px;
+        }
     }
 }

@@ -54,6 +54,16 @@
                 line-height: 28px;
             }
         }
+    }   
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        .gallery_list {
+            height: fit-content;
+            .gallery_list_row {
+                padding-top: 30px;
+            }
+        }
     }
-    
 }

@@ -47,3 +47,17 @@
     }
 }
 
+@media (max-width: 768px) {
+    .wrapper{
+        .tert_nav {
+            padding: 10px;
+            a{
+                font-size: 14px;
+            }
+        }
+    
+        nav {   
+            padding: 10px;
+        }
+    }
+}

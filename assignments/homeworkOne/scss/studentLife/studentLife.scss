@@ -120,3 +120,38 @@
     }
 
 }
+
+@media (max-width: 768px) {
+    .wrapper {
+        .studentLife_hero {
+            margin-top: 0px;
+        }
+
+        .professional_exp {
+            .professional_exp_row {
+                .dash {
+                    display: none;
+                }
+
+                .professional_exp_desc {
+                    font-size: 26px;
+                }
+            }
+        }
+
+        .typical_college {
+            height: fit-content;
+            .college_towns {
+                flex-direction: column;
+
+                .college_towns_indy {
+                    padding-bottom: 64px;
+                }
+            }
+        }
+
+        // footer.studentLife {
+        //     margin-top: 700px;
+        // }
+    }
+}
