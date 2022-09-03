@@ -1,0 +1,122 @@
+.studentLife_hero {
+    margin-top: -50px;
+    height: 500px;
+    background-image: url(./../../images/studentLife-hero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.student_top {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+
+
+
+    h1{
+        font-size: 30px;
+        padding: 50px 0px 15px 0px;
+    }
+
+    p.home {
+        padding-bottom: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 15px;
+        background-color: #990000;
+        border-radius: 5px;
+
+    }
+}
+
+.professional_exp {
+    margin-top: 60px;
+    padding: 50px;
+    height: 400px;
+    background-color: #990000;
+
+    p.title {
+        margin-left: 17%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    &_row {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+    &_desc {
+        width: 77%;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 0px;
+        font-size: 40px;
+        float: left;
+    }
+
+    .dash {
+        background-color: #918a82;
+        height: 250px;
+        width: 5px;
+        margin-left:130px;
+    }
+}
+
+.typical_college {
+    margin: 0 auto;
+    height: 730px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    p.title {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        font-size: 25px;
+        padding: 20px 0px;
+        font-weight: 600;
+    }
+
+    .college_towns {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+
+        &_indy, &_iupui {
+            img {
+                height: 360px;
+                width: 360px;
+            }
+        }
+
+        &_indyTitle, &_iupuiTitle {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+            font-size: 20px;
+            padding: 15px 0px;
+            font-weight: 600;
+        }
+
+        &_indyDesc, &_iupuiDesc {
+            width: 295px;
+            line-height: 23px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            background-color: #990000;
+            padding: 15px;
+            color: #fff;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+}

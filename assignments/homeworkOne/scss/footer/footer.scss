@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 50px 20px 50px;
+
+    .footer_logo {
+        img {
+            height: 50px;
+            width: 250px;
+        }
+    }
+
+    .footer_copyright {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+    }
+}

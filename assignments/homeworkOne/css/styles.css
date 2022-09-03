@@ -1,0 +1,473 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.tert_nav {
+  height: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.tert_nav_top {
+  padding: 30px 0px 30px 0px;
+  border-bottom: 1px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.tert_nav_top img {
+  width: 46px;
+  height: 53px;
+}
+.tert_nav_top_school {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 5px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.tert_nav_bottom {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 15px 15px 0px;
+}
+.tert_nav_bottom a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav {
+  margin-top: 30px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav_item {
+  text-decoration: none;
+  color: #000;
+}
+
+.covid {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.covid p {
+  font-size: 18px;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog_posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+}
+.blog_posts_indiv {
+  height: 650px;
+  width: 350px;
+}
+.blog_posts_indiv img {
+  width: 335px;
+  height: 300px;
+}
+.blog_posts_indivTitle p.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 30px 15px 0px 15px;
+}
+.blog_posts_indivTitle p.otv, .blog_posts_indivTitle p.date {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  padding-left: 15px;
+}
+.blog_posts_indivTitle p.date {
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+.blog_posts_indivDesc {
+  width: 80%;
+  padding-left: 15px;
+  line-height: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blog_posts_indivBtn {
+  margin-left: 15px;
+  padding: 10px;
+  background-color: #900;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+.blog_posts a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.join_banner {
+  margin: 0 auto;
+  height: 215px;
+  background-image: url(./../../images/join-banner-background.jpeg);
+  width: 100%;
+}
+.join_banner_title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #fff;
+  padding-top: 75px;
+}
+.join_banner_btns {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.join_banner_btns a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+footer {
+  width: 100%;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px 50px 20px 50px;
+}
+footer .footer_logo img {
+  height: 50px;
+  width: 250px;
+}
+footer .footer_copyright {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+}
+
+.about-hero {
+  margin-top: -50px;
+  height: 500px;
+  background-image: url(./../../images/about-hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about_top {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 28px;
+  margin-bottom: -20px;
+}
+.about_top h1 {
+  font-size: 30px;
+  padding: 50px 0px 15px 0px;
+}
+.about_top h1.mission {
+  margin-top: 30px;
+}
+
+.about_stats {
+  height: 400px;
+  background-color: #900;
+  margin-top: 75px;
+}
+.about_stats_row {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about_stats_box {
+  background-color: rgba(0, 0, 0, 0.1019607843);
+  height: 140px;
+  width: 200px;
+  margin: 20px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about_stats_title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.about_stats_desc {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 0px 15px;
+}
+
+.studentLife_hero {
+  margin-top: -50px;
+  height: 500px;
+  background-image: url(./../../images/studentLife-hero.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.student_top {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 28px;
+}
+.student_top h1 {
+  font-size: 30px;
+  padding: 50px 0px 15px 0px;
+}
+.student_top p.home {
+  padding-bottom: 20px;
+}
+.student_top a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  background-color: #990000;
+  border-radius: 5px;
+}
+
+.professional_exp {
+  margin-top: 60px;
+  padding: 50px;
+  height: 400px;
+  background-color: #990000;
+}
+.professional_exp p.title {
+  margin-left: 17%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 25px;
+}
+.professional_exp_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.professional_exp_desc {
+  width: 77%;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 0px;
+  font-size: 40px;
+  float: left;
+}
+.professional_exp .dash {
+  background-color: #918a82;
+  height: 250px;
+  width: 5px;
+  margin-left: 130px;
+}
+
+.typical_college {
+  margin: 0 auto;
+  height: 730px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.typical_college p.title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 25px;
+  padding: 20px 0px;
+  font-weight: 600;
+}
+.typical_college .college_towns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.typical_college .college_towns_indy img, .typical_college .college_towns_iupui img {
+  height: 360px;
+  width: 360px;
+}
+.typical_college .college_towns_indyTitle, .typical_college .college_towns_iupuiTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;
+  padding: 15px 0px;
+  font-weight: 600;
+}
+.typical_college .college_towns_indyDesc, .typical_college .college_towns_iupuiDesc {
+  width: 295px;
+  line-height: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.typical_college .college_towns a {
+  background-color: #990000;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_gallery {
+  line-height: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about_gallery_title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.museum_banner {
+  height: 540px;
+  background-image: url(./../../images/galleries-hero.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 60px;
+}
+
+.gallery_list {
+  margin-top: 60px;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.gallery_list_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid grey;
+}
+.gallery_list_row .galleryImg img {
+  height: 240px;
+  width: 240px;
+  margin-right: 25px;
+}
+.gallery_list_row .galleryinfo {
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gallery_list_row .galleryinfo p.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.gallery_list_row .galleryinfo p {
+  line-height: 28px;
+}

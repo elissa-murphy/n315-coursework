@@ -1,0 +1,109 @@
+.covid {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    p {
+        font-size: 18px;
+        padding: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+}
+
+.blog_posts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    &_indiv {
+        height: 650px;
+        width: 350px;
+
+        img {
+            width: 335px;
+            height: 300px;
+        }
+
+    }
+
+    &_indivTitle {
+        p.title {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 22px;
+            font-weight: 600;
+            padding: 30px 15px 0px 15px;
+        }
+
+        p.otv, p.date {
+            font-family:Arial, Helvetica, sans-serif;
+            color: grey;
+            padding-left: 15px;
+        }
+
+        p.date {
+            margin-top: -10px;
+            padding-bottom: 20px;
+        }
+    }
+
+    &_indivDesc {
+        width: 80%;
+       padding-left: 15px;
+       line-height: 27px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &_indivBtn {
+        margin-left: 15px;
+        padding: 10px;
+        background-color: #900;
+        width:fit-content;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        border-radius: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+}
+
+.join_banner {
+    margin: 0 auto;
+    height: 215px;
+    background-image: url(./../../images/join-banner-background.jpeg);
+    width: 100%;
+
+
+    &_title {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #fff;
+        padding-top: 75px;
+    }
+
+    &_btns {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #fff;
+        }
+    }
+}
