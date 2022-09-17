@@ -1,0 +1,24 @@
+footer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: $site-background;
+    
+    p {
+        font-family: russo;
+        color: $site-blue;
+    }
+    .address {
+        a {
+            text-decoration: none;
+            color: $site-font
+        }
+
+        a:hover {
+            color:$site-green;
+        }
+    }
+}

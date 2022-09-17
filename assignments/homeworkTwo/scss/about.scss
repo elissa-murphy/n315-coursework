@@ -1,0 +1,92 @@
+.aboutHero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    background-image: url(./../images/mass-ave.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-size: 50px;
+    font-family: russo;
+    color: #fff;
+}
+
+.aboutSection1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    padding: 64px 0px;
+
+    h2, h4 {
+        color: $site-blue;
+        font-family: russo;
+        letter-spacing: 3px;
+    }
+
+    p {
+        color: $site-font;
+        font-size: 14px;
+        width: 700px;
+    }
+    img {
+        padding-bottom: 15px;
+    }
+}
+
+.aboutImageSection {
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    img#main {
+        height: 500px;
+        width: 40%;
+        
+    }
+
+    img {
+        padding-bottom: 15px;
+    }
+}
+
+.aboutSection2 {
+
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    padding-bottom: 64px;
+
+    h2, h4 {
+        color: $site-blue;
+        letter-spacing: 3px;
+        font-family: russo;
+    }
+
+    p {
+        font-size: 14px;
+        color: $site-font;
+        margin-right: 20px;
+    }
+    img {
+        padding-bottom: 15px;
+    }
+    
+}
+#aboutSectionList {
+    .column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 320px;
+        width: 300px;
+    }
+
+}

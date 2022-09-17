@@ -1,0 +1,60 @@
+.visitHero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    background-image: url(./../images/visitHero-edited.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+    font-family: russo;
+    color:#fff;
+}
+
+.visitSections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 42px 0px;
+
+    .visitSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px 40px 0px;
+        
+        h2 {
+            color: $site-blue;
+            font-family: russo;
+            letter-spacing: 3px;
+        }
+
+        p {
+            width: 700px;
+            color: $site-font;
+        }
+
+        img {
+            padding-bottom: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: $site-blue;
+            padding: 15px;
+            border-radius: 5px;
+            color: #fff;
+            font-family: russo;
+            font-size: 10px;
+            letter-spacing: 1px;
+        }
+
+        a:hover {
+            color:$site-green;
+        }
+    }
+}

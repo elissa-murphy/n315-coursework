@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  margin-top: 50px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #5f6263;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 800;
+}
+nav a:hover {
+  color: #000;
+}
+
+.border {
+  height: 10px;
+  width: 100%;
+  background-image: url("../images/Border.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 45px;
+}
+
+#border {
+  margin-top: 0px !important;
+}
+
+@font-face {
+  font-family: "russo";
+  src: url(./../images/Russo_One/RussoOne-Regular.ttf);
+}
+.homeHero {
+  height: 500px;
+  background-image: url(./../images/Indy-meets.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homeCopy {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 64px 0px;
+}
+.homeCopy h2 {
+  font-family: russo;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.homeCopy h4 {
+  font-family: russo;
+  color: rgb(62, 130, 131);
+  letter-spacing: 2px;
+  font-size: 23px;
+}
+.homeCopy img {
+  padding: 5px 0px 18px 0px;
+  width: 75px;
+}
+.homeCopy p {
+  width: 700px;
+  font-size: 13px;
+  color: #5f6263;
+}
+
+.homeSections {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+.homeSections a {
+  text-decoration: none;
+  color: #fff;
+}
+.homeSections .homeSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 33.33%;
+  height: 300px;
+  color: #fff;
+  font-family: russo;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.homeSections #foodDrink {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 130, 131, 0.7)), to(rgba(62, 130, 131, 0.7))), url(./../images/foodDrink.jpeg);
+  background-image: linear-gradient(rgba(62, 130, 131, 0.7), rgba(62, 130, 131, 0.7)), url(./../images/foodDrink.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: middle;
+}
+.homeSections #arts {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(214, 121, 40, 0.7)), to(rgba(214, 121, 40, 0.7))), url(./../images/aboutHero-edited.jpeg);
+  background-image: linear-gradient(rgba(214, 121, 40, 0.7), rgba(214, 121, 40, 0.7)), url(./../images/aboutHero-edited.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: middle;
+}
+.homeSections #shopping {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(202, 76, 39, 0.7)), to(rgba(202, 76, 39, 0.7))), url(./../images/shopping.jpeg);
+  background-image: linear-gradient(rgba(202, 76, 39, 0.7), rgba(202, 76, 39, 0.7)), url(./../images/shopping.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: middle;
+}
+.homeSections #lodging {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(219, 135, 184, 0.7)), to(rgba(219, 135, 184, 0.7))), url(./../images/lodging.jpeg);
+  background-image: linear-gradient(rgba(219, 135, 184, 0.7), rgba(219, 135, 184, 0.7)), url(./../images/lodging.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.homeSections #service {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(187, 189, 53, 0.7)), to(rgba(187, 189, 53, 0.7))), url(./../images/aboutSection2-edited.jpeg);
+  background-image: linear-gradient(rgba(187, 189, 53, 0.7), rgba(187, 189, 53, 0.7)), url(./../images/aboutSection2-edited.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.homeSections #experiences {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 130, 131, 0.7)), to(rgba(62, 130, 131, 0.7))), url(./../images/experiences.jpeg);
+  background-image: linear-gradient(rgba(62, 130, 131, 0.7), rgba(62, 130, 131, 0.7)), url(./../images/experiences.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+footer {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: rgb(242, 243, 248);
+}
+footer p {
+  font-family: russo;
+  color: rgb(62, 130, 131);
+}
+footer .address a {
+  text-decoration: none;
+  color: #5f6263;
+}
+footer .address a:hover {
+  color: rgb(187, 189, 53);
+}
+
+.aboutHero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 400px;
+  background-image: url(./../images/mass-ave.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-size: 50px;
+  font-family: russo;
+  color: #fff;
+}
+
+.aboutSection1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 64px 0px;
+}
+.aboutSection1 h2, .aboutSection1 h4 {
+  color: rgb(62, 130, 131);
+  font-family: russo;
+  letter-spacing: 3px;
+}
+.aboutSection1 p {
+  color: #5f6263;
+  font-size: 14px;
+  width: 700px;
+}
+.aboutSection1 img {
+  padding-bottom: 15px;
+}
+
+.aboutImageSection {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.aboutImageSection img#main {
+  height: 500px;
+  width: 40%;
+}
+.aboutImageSection img {
+  padding-bottom: 15px;
+}
+
+.aboutSection2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 64px;
+}
+.aboutSection2 h2, .aboutSection2 h4 {
+  color: rgb(62, 130, 131);
+  letter-spacing: 3px;
+  font-family: russo;
+}
+.aboutSection2 p {
+  font-size: 14px;
+  color: #5f6263;
+  margin-right: 20px;
+}
+.aboutSection2 img {
+  padding-bottom: 15px;
+}
+
+#aboutSectionList .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 320px;
+  width: 300px;
+}
+
+.visitHero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 400px;
+  background-image: url(./../images/visitHero-edited.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 50px;
+  font-family: russo;
+  color: #fff;
+}
+
+.visitSections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 42px 0px;
+}
+.visitSections .visitSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 0px 40px 0px;
+}
+.visitSections .visitSection h2 {
+  color: rgb(62, 130, 131);
+  font-family: russo;
+  letter-spacing: 3px;
+}
+.visitSections .visitSection p {
+  width: 700px;
+  color: #5f6263;
+}
+.visitSections .visitSection img {
+  padding-bottom: 15px;
+}
+.visitSections .visitSection a {
+  text-decoration: none;
+  background-color: rgb(62, 130, 131);
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: russo;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.visitSections .visitSection a:hover {
+  color: rgb(187, 189, 53);
+}
+
+.eventsHero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 300px;
+  background-image: url(./../images/eventsHero-edited.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 50px;
+  font-family: russo;
+  color: #fff;
+}
+
+.events {
+  padding: 64px 0px;
+}
+.events .event {
+  padding: 42px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.events .event img {
+  height: 400px;
+  width: 400px;
+  margin-right: 20px;
+}
+.events .event h4 {
+  font-family: russo;
+  color: rgb(62, 130, 131);
+}
+.events .event p, .events .event li {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f6263;
+  font-size: 13px;
+  width: 450px;
+}
