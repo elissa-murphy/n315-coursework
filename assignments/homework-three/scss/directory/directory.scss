@@ -1,7 +1,7 @@
 .directoryHero {
   height: 600px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./../../images/home/market-directory.jpeg);
+    url(./../images/home/market-directory.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -85,7 +85,7 @@
 .directory-section3 {
   height: 400px;
   background-image: linear-gradient(rgba(0, 63, 45, 0.7), rgba(0, 63, 45, 0.7)),
-    url(./../../images/home/home-header.jpeg);
+    url(./../images/home/home-header.jpeg);
   display: flex;
   align-items: center;
   justify-content: space-evenly;

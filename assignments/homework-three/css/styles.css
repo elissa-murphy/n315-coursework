@@ -74,7 +74,7 @@ nav a {
 }
 .homeHero {
   height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../../images/home/home-header.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../images/home/home-header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -126,7 +126,7 @@ nav a {
   justify-content: space-evenly;
 }
 .home-section2 .home-section2-column1 {
-  background-image: url(./../../images/home/grab-lunch.jpeg);
+  background-image: url(./../images/home/grab-lunch.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -154,7 +154,7 @@ nav a {
   font-family: sans;
 }
 .home-section2 .home-section2-column2 {
-  background-image: url(./../../images/home/shop-flowers.jpeg);
+  background-image: url(./../images/home/shop-flowers.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -182,7 +182,7 @@ nav a {
   font-family: sans;
 }
 .home-section2 .home-section2-column3 {
-  background-image: url(./../../images/home/tomlinson.jpeg);
+  background-image: url(./../images/home/tomlinson.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -224,7 +224,7 @@ nav a {
 
 .home-section3 {
   height: 100vh;
-  background-image: url(./../../images/home/catacombs.jpeg);
+  background-image: url(./../images/home/catacombs.jpeg);
   display: flex;
   align-items: left;
   justify-content: center;
@@ -281,7 +281,7 @@ nav a {
 }
 .directoryHero {
   height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../../images/home/market-directory.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../images/home/market-directory.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -356,7 +356,7 @@ nav a {
 
 .directory-section3 {
   height: 400px;
-  background-image: linear-gradient(rgba(0, 63, 45, 0.7), rgba(0, 63, 45, 0.7)), url(./../../images/home/home-header.jpeg);
+  background-image: linear-gradient(rgba(0, 63, 45, 0.7), rgba(0, 63, 45, 0.7)), url(./../images/home/home-header.jpeg);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -395,7 +395,7 @@ nav a {
 .marketHero {
   margin: 0 auto;
   height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../../images/originalMarket/farmers-market-header.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../images/originalMarket/farmers-market-header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -615,7 +615,7 @@ nav a {
 .tapHero {
   margin: 0 auto;
   height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../../images/tomlinsonRoom/tomlinson-header.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../images/tomlinsonRoom/tomlinson-header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -741,7 +741,7 @@ nav a {
 }
 .eventHero {
   height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../../images/event/event-header.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../images/event/event-header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
