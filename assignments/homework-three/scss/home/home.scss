@@ -1,0 +1,230 @@
+.homeHero {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./../../images/home/home-header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: serif;
+  font-weight: 600;
+
+  .heroTitle {
+    color: #fff;
+    font-size: 60px;
+    padding: 15px;
+  }
+
+  .heroDesc {
+    color: #fff;
+    font-size: 26px;
+    padding: 15px;
+  }
+}
+
+.home-section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 96px 0px;
+  line-height: 25px;
+  height: 175px;
+
+  .section1-title {
+    font-family: serif;
+    font-size: 60px;
+    color: $green;
+    font-weight: 600;
+    padding-bottom: 48px;
+  }
+
+  .section1-desc {
+    color: $font;
+    max-width: 1300px;
+  }
+}
+
+.home-section2 {
+  background: #f3f3f3;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .home-section2-column1 {
+    background-image: url(./../../images/home/grab-lunch.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 460px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: inset 200px 200px 200px rgba(0, 0, 0, 0.5);
+
+    .home-section2-column-title {
+      font-size: 34px;
+      position: absolute;
+      top: 325px;
+      left: 15px;
+      color: #fff;
+      font-family: serif;
+      font-weight: 600;
+    }
+
+    .home-section2-column-desc {
+      font-size: 18px;
+      position: absolute;
+      top: 365px;
+      left: 15px;
+      color: #fff;
+      font-family: sans;
+    }
+  }
+
+  .home-section2-column2 {
+    background-image: url(./../../images/home/shop-flowers.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 460px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: inset 200px 200px 200px rgba(0, 0, 0, 0.5);
+
+    .home-section2-column-title {
+      font-size: 34px;
+      position: absolute;
+      top: 325px;
+      left: 15px;
+      color: #fff;
+      font-family: serif;
+      font-weight: 600;
+    }
+
+    .home-section2-column-desc {
+      font-size: 18px;
+      position: absolute;
+      top: 365px;
+      left: 15px;
+      color: #fff;
+      font-family: sans;
+    }
+  }
+
+  .home-section2-column3 {
+    background-image: url(./../../images/home/tomlinson.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 460px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: inset 200px 200px 200px rgba(0, 0, 0, 0.5);
+
+    .home-section2-column-title {
+      font-size: 34px;
+      position: absolute;
+      top: 325px;
+      left: 15px;
+      color: #fff;
+      font-family: serif;
+      font-weight: 600;
+    }
+
+    .home-section2-column-desc {
+      font-size: 18px;
+      position: absolute;
+      top: 365px;
+      left: 15px;
+      color: #fff;
+      font-family: sans;
+    }
+  }
+}
+
+.home-section2-title {
+  font-family: serif;
+  font-size: 48px;
+  color: $green;
+  font-weight: 600;
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.home-section3 {
+  height: 100vh;
+  background-image: url(./../../images/home/catacombs.jpeg);
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: inset 200px 200px 200px rgba(0, 0, 0, 0.5);
+
+  .home-section3-title {
+    color: #fff;
+    font-size: 48px;
+    font-family: serif;
+    padding-bottom: 32px;
+    padding-left: 32px;
+  }
+
+  .home-section3-desc {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: sans;
+    padding-bottom: 32px;
+    width: 600px;
+    padding-left: 32px;
+  }
+  a {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: $orange;
+    font-size: 16px;
+    width: fit-content;
+    margin-left: 32px;
+    font-family: sans;
+  }
+}
+
+@media (max-width: 767px) {
+  #app {
+    .home-section1 {
+      height: 650px;
+      margin: 32px;
+
+      .section1-title {
+        line-height: 55px;
+        padding-bottom: 24px;
+      }
+    }
+  }
+
+  .home-section2 {
+    height: 1500px;
+    flex-direction: column;
+  }
+
+  .home-section3 {
+    .home-section3-title {
+      width: 440px;
+    }
+    .home-section3-desc {
+      width: 400px;
+    }
+  }
+}

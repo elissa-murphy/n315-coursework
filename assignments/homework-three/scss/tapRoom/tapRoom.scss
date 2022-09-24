@@ -1,0 +1,150 @@
+.tapHero {
+  margin: 0 auto;
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./../../images/tomlinsonRoom/tomlinson-header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: serif;
+  font-weight: 600;
+
+  .heroTitle {
+    color: #fff;
+    font-size: 60px;
+    padding: 15px;
+  }
+}
+
+.tap-section1 {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 96px;
+  margin-bottom: 64px;
+  line-height: 25px;
+  height: 250px;
+
+  .section1-title {
+    font-family: serif;
+    font-size: 36px;
+    color: $green;
+    font-weight: 600;
+    padding-bottom: 48px;
+  }
+
+  .section1-desc {
+    color: $font;
+    max-width: 1300px;
+    font-family: sans;
+
+    p {
+      color: $orange;
+      font-weight: 700;
+      font-family: sans;
+      width: 900px;
+      display: flex;
+      margin: 0 auto;
+      padding-bottom: 16px;
+    }
+  }
+}
+
+.market-section3 {
+  height: 1350px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  .market-section3-row {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 32px;
+
+    .market-section3-column {
+      img {
+        height: 615px;
+        width: 725px;
+        border-radius: 20px;
+        margin: 0px 30px;
+      }
+      .market-section3-column-title {
+        font-family: sans;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 600;
+        color: $orange;
+        padding-bottom: 32px;
+        width: 550px;
+      }
+
+      .market-section3-column-desc {
+        font-family: sans;
+        color: #000;
+        font-size: 18px;
+        width: 550px;
+        line-height: 35px;
+
+        span {
+          color: $orange;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #app {
+    .tap-section1 {
+      height: 300px;
+
+      .section1-title {
+        width: 424px;
+        line-height: 40px;
+        padding-bottom: 16px;
+      }
+
+      p {
+        width: 455px;
+      }
+
+      .section1-desc {
+        width: 450px;
+      }
+    }
+
+    .market-section3 {
+      height: 1900px;
+      justify-content: center;
+
+      .market-section3-column {
+        img {
+          width: 400px;
+        }
+
+        .market-section3-column-title {
+          width: 400px;
+        }
+
+        .market-section3-column-desc {
+          width: 400px;
+        }
+      }
+
+      #market-section3-row2 {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+nav {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img {
+    height: 105px;
+    width: 105px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $font;
+    font-family: sans;
+  }
+}
+
+@media (max-width: 767px) {
+  nav {
+    padding: 20px;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+      padding: 5px;
+    }
+
+    img {
+      height: 60px;
+      width: 60px;
+      margin-right: 20px;
+    }
+  }
+}

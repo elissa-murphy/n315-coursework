@@ -1,0 +1,132 @@
+.directoryHero {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./../../images/home/market-directory.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: serif;
+  font-weight: 600;
+
+  .heroTitle {
+    color: #fff;
+    font-size: 60px;
+    padding: 15px;
+  }
+}
+
+.home-section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 96px 0px;
+  line-height: 25px;
+
+  .directory-section1-title {
+    font-family: serif;
+    font-size: 28px;
+    color: $green;
+    font-weight: 600;
+    padding-bottom: 48px;
+    max-width: 1000px;
+  }
+
+  .section1-desc {
+    color: $font;
+    max-width: 1000px;
+  }
+
+  a {
+    margin-top: 32px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: $orange;
+    font-size: 16px;
+    width: fit-content;
+    font-family: sans;
+  }
+}
+
+.directory-section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: #f3f3f3;
+  padding: 64px 0px;
+
+  .directory-section2-block {
+    img {
+      width: 420px;
+      height: 380px;
+    }
+
+    .directory-section2-block-title {
+      font-family: serif;
+      font-size: 26px;
+      line-height: 32px;
+      font-weight: 700;
+      color: $green;
+      padding-top: 28px;
+      text-align: center;
+      padding-bottom: 64px;
+    }
+  }
+}
+
+.directory-section3 {
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 63, 45, 0.7), rgba(0, 63, 45, 0.7)),
+    url(./../../images/home/home-header.jpeg);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .directory-section3-row {
+    .directory-section3-row-title {
+      color: #fff;
+      font-size: 48px;
+      font-family: serif;
+      padding-bottom: 24px;
+      width: 600px;
+      font-weight: 700;
+    }
+
+    .directory-section3-row-desc {
+      color: #fff;
+      font-size: 18px;
+      font-family: sans;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      outline: 1px solid #fff;
+      padding: 15px;
+      border-radius: 20px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #app {
+    .directory-section3-row {
+      .directory-section3-row-title {
+        font-size: 24px;
+        width: 250px;
+      }
+      .directory-section3-row-desc {
+        width: 250px;
+      }
+    }
+  }
+}
